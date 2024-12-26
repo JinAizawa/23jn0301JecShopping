@@ -1,5 +1,6 @@
 <?php
-    // DB接続設定
-    define('DSN', 'sqlsrv:server=10.32.97.1\web;database=23jn0301');
-    define('DB_USER', '23jn0301');
-    define('DB_PASSWORD', '23jn0301');
+// DB接続設定
+define('DSN', 'sqlsrv:server=tcp:23jn0301db.database.windows.net,1433');
+define('DB_NAME', '23jn0301DB');
+define('DB_USER', 'jndb');
+define('DB_PASSWORD', 'Pa$$word1234');
