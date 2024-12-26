@@ -39,7 +39,7 @@ if (isset($_GET['goodscode'])) {
     </tr>
     <tr>
         <td>
-            <?= '￥' . number_format($goods->price) ?>
+            <?= '\xc2\xa5' . number_format($goods->price) ?>
 
         </td>
     </tr>
